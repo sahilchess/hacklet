@@ -4,7 +4,7 @@ javascript:(function () {
 
   if (season === "summer") {
     const emojis = ["☀️", "🏖️", "🍹", "🌴", "🌊"];
-    const imageURL = "https://example.com/summer.jpg";
+    const imageURL = "https://content.thriveglobal.com/wp-content/uploads/2020/06/summer.jpg";
     replaceTextWithEmojis(emojis);
     replaceImages(imageURL);
     alert("So Much Sun, So Little Time");
@@ -31,6 +31,10 @@ javascript:(function () {
     alert("Spring has sprung");
 
   } else {
+    const emojis = ["❌", "⚠️", "🚫"];
+    const imageURL = "https://www.elegantthemes.com/blog/wp-content/uploads/2020/08/000-http-error-codes.png";
+    replaceTextWithEmojis(emojis);
+    replaceImages(imageURL);
     alert("User broke the server.");
     alert("abort task, server will blow up");
   }
