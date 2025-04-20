@@ -11,21 +11,21 @@ javascript:(function () {
 
   } else if (season === "winter") {
     const emojis = ["❄️", "⛄", "🔥", "🎄", "🦌"];
-    const imageURL = "https://example.com/winter.jpg";
+    const imageURL = "https://t3.ftcdn.net/jpg/02/98/03/22/360_F_298032209_YD4pFLDyzMyqBzso5xF5USR05hxqGuXf.jpg";
     replaceTextWithEmojis(emojis);
     replaceImages(imageURL);
     alert("Catching Snowflakes And Feelings");
 
   } else if (season === "fall") {
     const emojis = ["🍂", "🎃", "🍁", "🌰", "🦃"];
-    const imageURL = "https://example.com/fall.jpg";
+    const imageURL = "https://www.servpro.com/cs-images/0870b5907c331f2884eccbb69ea7bef2d0264cb0_Orange_and_Yellow_Fall_Leaves_shutterstock_1802809684.jpg.webp";
     replaceTextWithEmojis(emojis);
     replaceImages(imageURL);
     alert("pumpkin spice and everything nice");
 
   } else if (season === "spring") {
     const emojis = ["🌸", "🌷", "☔", "🐣", "🐝"];
-    const imageURL = "https://example.com/spring.jpg";
+    const imageURL = "https://ktla.com/wp-content/uploads/sites/4/2022/03/GettyImages-1130636356.jpg?strip=1";
     replaceTextWithEmojis(emojis);
     replaceImages(imageURL);
     alert("Spring has sprung");
